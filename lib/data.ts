@@ -36,7 +36,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Sales and Marketing",
-    location: "Dublin, Ireland",
+    location: "NED College | Dublin, Ireland",
     description:
       "I took a break from Univercity. I used working Holiday Visa and found a job as a Japan's Market Specialist at a local Irish Company.",
     icon: React.createElement(CgWorkAlt),
@@ -44,7 +44,7 @@ export const experiencesData = [
   },
   {
     title: "Graduated University",
-    location: "Tokyo, Japan",
+    location: "Waseda University | Tokyo, Japan",
     description:
       "I majored in Social Sciences at Waseda University.  I studied economics, accounting, and sociology etc. I also enjoyed playing soccer and backpacking around the world in the school life.",
     icon: React.createElement(LuGraduationCap),
@@ -52,14 +52,14 @@ export const experiencesData = [
   },
   {
     title: "IT Consultant",
-    location: "Tokyo, Japan",
+    location: "ABeam Consulting | Tokyo, Japan",
     description:
       "I worked as a IT consultant at ABeam Consurlting that is know for one of the greatest global consulting firm from Asia. I helped clients such as a real estate investment and a trading company. I also operated and implemented a SaaS service specializing in CO2 visualization.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
   {
-    title: "Learning Computer Science",
+    title: "Learning WEB Development",
     location: "Home",
     description:
       "I mainly focus on front-end development. Lerning by Recursion (Online CS study platform), YouTube, udemy, and books.",
