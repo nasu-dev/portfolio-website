@@ -35,26 +35,34 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Sales and Marketing",
+    location: "Dublin, Ireland",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I took a break from Univercity. I used working Holiday Visa and found a job as a Japan's Market Specialist at a local Irish Company.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2019-2020",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Graduated University",
+    location: "Tokyo, Japan",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I majored in Social Sciences at Waseda University.  I studied economics, accounting, and sociology etc. I also enjoyed playing soccer and backpacking around the world in the school life.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2017-2021",
+  },
+  {
+    title: "IT Consultant",
+    location: "Tokyo, Japan",
+    description:
+      "I worked as a IT consultant at ABeam Consurlting that is know for one of the greatest global consulting firm from Asia. I helped clients such as a real estate investment and a trading company. I also operated and implemented a SaaS service specializing in CO2 visualization.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2023",
+  },
+  {
+    title: "Learning Computer Science",
+    location: "Home",
+    description:
+      "I mainly focus on front-end development. Lerning by Recursion (Online CS study platform), YouTube, udemy, and books.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
