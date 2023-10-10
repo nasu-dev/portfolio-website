@@ -10,21 +10,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 URL： （https://akito-portfolio-site.vercel.app）
 
 
-## Built With
+## プロジェクト内の使用技術・特徴
 
-* Latest Next.js 13 features
+* Next.jsによるフロント実装
 * Next.js App Router
-* Next.js Server Actions
-* Client & Server Components
-* TypeScript (Beginner & Intermediate)
+* Next.js Serverサクション
+* クライアント & サーバーComponentsの理解
+* TypeScript (初級・中級レベル)
 * Tailwind CSS
-* Context API
-* Advanced Animations with Framer Motion
+* コンテキストAPI
+* Framer Motionを使用したアニメーション効果
 * React.Email & Resend
-* Custom React hooks
-* Fresh, modern UI design
-* Light & Dark mode
-* Responsive website
+* カスタムReact hooks
+* 最新かつモダンなUIデザイン
+* ライトモード & ダークモードの切替機能（自動・マニュアル）
+* レスポンシブデザイン
 
 ## Setup
 
