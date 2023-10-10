@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@react-email/components": "^0.0.7",
-    "@react-email/tailwind": "^0.0.9",
+    "@react-email/tailwind": "^0.0.8",
     "@types/node": "20.8.2",
     "@types/react": "18.2.25",
     "@types/react-dom": "18.2.10",
