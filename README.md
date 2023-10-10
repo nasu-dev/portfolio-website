@@ -3,8 +3,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## About The Project
 <img width="1469" alt="スクリーンショット 2023-10-10 14 32 21" src="https://github.com/nasu-dev/portfolio-website/assets/114811498/dc482eee-1412-471c-a0b8-92131966b3a0">
 
-ポートフォリオ紹介用に作成した自己紹介Webサイトです。
-モダンなフロント技術になれるため、Next.js、TypeScript、Tailwind CSSを使用しました。
+<p>ポートフォリオ紹介用に作成した自己紹介Webサイトです。</p>
+<p>モダンなフロント技術になれるため、Next.js、TypeScript、Tailwind CSSを使用しました。</p>
 URL： （https://akito-portfolio-site.vercel.app）
 
 
