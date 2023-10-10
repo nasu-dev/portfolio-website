@@ -7,7 +7,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <p>ポートフォリオ紹介用に作成した自己紹介Webサイトです。</p>
 <p>モダンなフロント技術になれるため、Next.js、TypeScript、Tailwind CSSを使用しました。</p>
 
-URL： （https://akito-portfolio-site.vercel.app）
+URL： https://akito-portfolio-site.vercel.app
 
 
 ## プロジェクト内の使用技術・特徴
