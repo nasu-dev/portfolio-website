@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About The Project
+<img width="1469" alt="スクリーンショット 2023-10-10 14 32 21" src="https://github.com/nasu-dev/portfolio-website/assets/114811498/dc482eee-1412-471c-a0b8-92131966b3a0">
 
-## Getting Started
 
-First, run the development server:
+ポートフォリオ紹介用に作成した自己紹介Webサイトです。<br />
+モダンなフロント技術に慣れるため、Next.js、TypeScript、Tailwind CSSを使用しました。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+URL： https://akito-portfolio-site.vercel.app
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## プロジェクト内の使用技術・特徴
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* Next.jsによるフロント実装
+* Next.js App Router
+* Next.js Serverサクション
+* クライアント & サーバーComponentsの理解
+* TypeScript (初級・中級レベル)
+* Tailwind CSS
+* コンテキストAPI
+* Framer Motionを使用したアニメーション効果
+* React.Email & Resend
+* カスタムReact hooks
+* 最新かつモダンなUIデザイン
+* ライトモード & ダークモードの切替機能（自動・マニュアル）
+* レスポンシブデザイン
 
-## Learn More
+## Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. Add RESEND_API_KEY environment variable in .env.local
+2. In the send-email.ts action file, change the "to" email to your own email
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
