@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare, FaInstagram, FaTwitter } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import ProfileIMG from "../public/profile.png";
 
 
 export default function Intro() {
@@ -19,6 +20,7 @@ export default function Intro() {
     <section ref={ref} id="home" className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
         <div className='flex items-center justify-center'>
             <div className='relative'>
+            {/* アニメーション */}
             <motion.div
                 initial={{ opacity: 0, scale: 0}}
                 animate={{ opacity: 1, scale: 1}}
@@ -27,7 +29,7 @@ export default function Intro() {
                     duration: 0.2,
                 }}
                 >
-                <Image src="https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2984&q=80" 
+                <Image src={ProfileIMG} 
                 alt="Aki portrait" 
                 width="192" 
                 height="192" 
@@ -79,6 +81,7 @@ export default function Intro() {
         <a  className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10" href="/CV.pdf" download>
             Download CV <HiDownload className="opacity-60 group-ho hover:translate-y-1 transition"/>
         </a>
+        <div className="flex gap-2">
         <a className="bg-white text-gray-700 hover:text-gray-950 p-4 flex items-center gap-2 rounded-full [1.35rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60" href="https://www.linkedin.com/in/akito-i-9b3bb5195/" target="_blank">
             <BsLinkedin/>
         </a>
@@ -88,6 +91,7 @@ export default function Intro() {
         <a className="bg-white text-gray-700 hover:text-gray-950 p-4 flex items-center gap-2 rounded-full [1.35rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60" href="https://www.instagram.com/aki_171314/" target="_blank">
             <FaInstagram />
         </a>
+        </div>
      </motion.div>
 
     </section>

@@ -34,34 +34,34 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Sales and Marketing",
-    location: "NED College | Dublin, Ireland",
+    title: "セールス＆マーケティング",
+    location: "NED College | ダブリン, アイルランド🇮🇪",
     description:
-      "I took a break from Univercity. I used working Holiday Visa and found a job as a Japan's Market Specialist at a local Irish Company.",
+      "大学を休学し、アイルランド現地の語学学校でインターンとして活動。職場唯一の日本人として学生サポートやSNS運用などのマーケティング業務を経験。",
     icon: React.createElement(CgWorkAlt),
     date: "2019-2020",
   },
   {
-    title: "Graduated University",
-    location: "Waseda University | Tokyo, Japan",
+    title: "学士号取得",
+    location: "早稲田大学 | 東京, 日本",
     description:
-      "I majored in Social Sciences at Waseda University.  I studied economics, accounting, and sociology etc. I also enjoyed playing soccer and backpacking around the world in the school life.",
+      "社会科学部に在籍し、経営学や会計などのビジネス領域を中心に専攻。ゼミではヨーロッパ地域の移民政策や異文化を中心に学習。その他フットサルサークルでの活動や世界15カ国訪問のバックパッカーも経験。",
     icon: React.createElement(LuGraduationCap),
     date: "2017-2021",
   },
   {
-    title: "IT Consultant",
-    location: "ABeam Consulting | Tokyo, Japan",
+    title: "経営｜IT｜GXコンサルタント",
+    location: "ABeam Consulting | 東京, 日本",
     description:
-      "I worked as a IT consultant at ABeam Consurlting that is know for one of the greatest global consulting firm from Asia. I helped clients such as a real estate investment and a trading company. I also operated and implemented a SaaS service specializing in CO2 visualization.",
+      "新卒で入社した総合系コンサルファームにて、脱炭素関連のコンサルティング業務や自社SaaSサービスの運用、導入業務を担当。業務内で特にIT領域に興味を持ち、独学でプログラミング学習を開始。",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
   {
-    title: "Learning WEB Development",
-    location: "Home",
+    title: "WEB開発｜フロントエンド学習",
+    location: "Somewhere | 東京, 日本",
     description:
-      "I mainly focus on front-end development. Lerning by Recursion (Online CS study platform), YouTube, udemy, and books.",
+      "オンラインCS学習プラットフォーム「Recursion」を通じて、フロントエンド開発を学習。現在はNext.jsやTypeScriptを用いた開発を中心に学習中。",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
@@ -72,14 +72,14 @@ export const projectsData = [
   {
     title: "QuizGenius",
     description:
-      " A web app that generates quizzes with ChatGPT. I made this app to learn Next.js and TypeScript.",
-    tags: ["Next.js", "TypeScript", "Tailwind", "Prisma", "ChatGPT", "Shadcn"],
+      " ChatGPTを用いたクイズアプリ。好きなお題を入力するとAIが自動で問題を作成します。モダンなUIコンポーネントを用い、レスポンシブデザインに拘りました。",
+    tags: ["Next.js", "TypeScript", "Tailwind", "ChatGPT",　"Prisma",  "Shadcn"],
     imageUrl: quizGrusImg,
   },
   {
     title: "Tetris",
     description:
-      "A Tetris game made with BootStrap and JavaScript. I made this game to learn Git and Team Development.",
+      "オンラインCS学習プラットフォーム「Recursion」のチーム開発にて、テトリスゲームを自力で実装しました。Gitの使用方法や、DOM操作等のJavaScriptの基礎的な関数の習得に役立ちました。",
     tags: ["Git", "JavaScript", "BootStap"],
     imageUrl: tetrisImg,
   },

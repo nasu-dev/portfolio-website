@@ -1,48 +1,49 @@
 "use client";
 
-import React from 'react'
-import SectionHeading from './section-heading'
+import React from "react";
+import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView('About');
+  const { ref } = useSectionInView("About");
 
   return (
-    <motion.section ref={ref} className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28'
-        initial={{ opacity: 0, y: 100}}
-        animate={{ opacity: 1, y: 0}}
-        transition={{delay: 0.175,}}
-        id='about'
-
-    >  
-        <SectionHeading>About me</SectionHeading>
-        <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Social Science</span> and gaining experience working for a 
-        <span className="font-medium"> consulting company</span>, I decided to pursue my
-        passion for programming. I started self-taught study and learned{" "}
-        <span className="font-medium">Front-end web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MySQL
-        </span>
-        . I am also familiar with <span className="font-medium">TypeScript and AWS</span>. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+    <motion.section
+      ref={ref}
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
+      id="about"
+    >
+      <SectionHeading>About me</SectionHeading>
+      <p className="mb-3">
+        ご覧いただきありがとうざいます。Aki🇯🇵と申します。
+        <br />
+        Webエンジニア就職👨‍💻を目指し、独学でCS学習中の25歳です。
+        <br />
+        現在は<span className="font-semibold">React</span>や
+        <span className="font-semibold">TypeScript</span>
+        などを中心に技術習得を進めています。
+        <br />
       </p>
-
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy making coffee, grabbing beers, and relaxing in saunas. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">world history and philosophy</span>. I'm also
-        learning how to gain muscles at the gyms.
+        大学では<span className="font-semibold">社会科学</span>を専攻し、新卒で
+        <span className="font-semibold">
+          総合系コンサルティングティングファーム
+        </span>
+        に入社しました。<br />
+        主に不動産投資法人や総合商社に対する脱炭素関連のコンサルティングや、自社サービスである<span className="font-semibold">CO2排出量可視化SaaS「Cyanoba」🌱</span> のシステム導入、運用を担当していました。
+        <br />
+      </p>
+      <br />
+      <p>
+        趣味は<span className="font-semibold">英語学習📝</span>と<span className="font-semibold">クラフトビール🍻</span>です。 <br />
+        大学在学中にはカナダ🇨🇦やアイルランド🇮🇪での<span className="font-semibold">海外インターン</span>を経験し、
+        <br />
+        将来的には<span className="font-semibold">グローバル環境</span>での就労や国際的なビジネスにも興味があります。
       </p>
     </motion.section>
-  )
+  );
 }
