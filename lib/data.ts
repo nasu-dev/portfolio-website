@@ -63,7 +63,7 @@ export const experiencesData = [
     description:
       "オンラインCS学習プラットフォーム「Recursion」を通じて、フロントエンド開発を学習。現在はNext.jsやTypeScriptを用いた開発を中心に学習中。",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 

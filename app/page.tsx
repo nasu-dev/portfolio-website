@@ -6,6 +6,7 @@ import Projects from '@/components/projects'
 import SectionDevider from '@/components/section-devider'
 import Skills from '@/components/skills'
 
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-6">
