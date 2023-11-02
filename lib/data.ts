@@ -50,7 +50,7 @@ export const experiencesData = [
     date: "2017-2021",
   },
   {
-    title: "経営｜IT｜GXコンサルタント",
+    title: "経営｜ITコンサルタント",
     location: "ABeam Consulting | 東京, 日本",
     description:
       "新卒で入社した総合系コンサルファームにて、脱炭素関連のコンサルティング業務や自社SaaSサービスの運用、導入業務を担当。業務内で特にIT領域に興味を持ち、独学でプログラミング学習を開始。",
