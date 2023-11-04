@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import quizGrusImg from "@/public/quizgenius.png";
 import tetrisImg from "@/public/tetris.png";
+import openLibrayImg from "@/public/openlibrary.png";
 
 export const links = [
   {
@@ -53,7 +54,7 @@ export const experiencesData = [
     title: "経営｜ITコンサルタント",
     location: "ABeam Consulting | 東京, 日本",
     description:
-      "新卒で入社した総合系コンサルファームにて、脱炭素関連のコンサルティング業務や自社SaaSサービスの運用、導入業務を担当。業務内で特にIT領域に興味を持ち、独学でプログラミング学習を開始。",
+      "新卒で入社した総合系コンサルファームにて、環境・エネルギー関連のコンサルティング業務や自社SaaSサービスの運用、導入業務を担当。業務内でIT領域に興味を持ち、独学でプログラミング学習を開始。",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
@@ -82,6 +83,13 @@ export const projectsData = [
       "オンラインCS学習プラットフォーム「Recursion」のチーム開発にて、テトリスゲームを自力で実装しました。Gitの使用方法や、DOM操作等のJavaScriptの基礎的な関数の習得に役立ちました。",
     tags: ["Git", "JavaScript", "BootStap"],
     imageUrl: tetrisImg,
+  },
+  {
+    title: "Open Library",
+    description:
+      "APIを用いた書籍検索アプリ。ISBN(書籍番号)を入力し、該当する書籍データがある場合はブラウザ上に結果を表示します。非同期処理の練習用に作成しました。",
+    tags: ["React", "JavaScript", "Tailwind", "OpenLibraryAPI"],
+    imageUrl: openLibrayImg,
   },
 ] as const;
 
